@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Netflix</title>
+    <link rel="stylesheet" href="css/netflix.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <!--Inicio do conteudo principal-->
+
+        <div class="conteudo_P">
+
+
+            <!--Inicio do header-->
+            <div class="header">
+
+                  <!--Logo-->
+                 <div class="logo">
+                    <img src="imagens/logo.png" alt="" >
+                 </div>
+
+                 <!--menu-->
+                 <div class="menu">
+                    <div class="menu-left"> <!--menu left(esquerdo)-->
+                        <ul>
+                            <li>Inicio</li>
+                            <li>Séries</li>
+                            <li>Filmes</li>
+                            <li>Bombando</li>
+                            <li>Minha lista</li>
+                            <li>Navegar por idiomas</li>
+                        </ul>
+                    </div> <!--fim do menu left(esquerdo)-->
+
+                    <!--menu right(direito)-->
+                    <div class="menu-right">
+                        <ul>
+                            <li> <i class="fas fa-search"></i> </li>
+                            <li> <i class="fas fa-bell"></i> </li>
+                            <li class="user">
+                                <img src="imagens/user.jpg" alt="">
+                                <i class="fas fa-sort-down"></i> 
+                            </li>
+                        </ul>
+                    </div> <!--fecha o menu right(direito)-->
+                 </div>
+             </div> <!--final da header-->
+
+
+                 <!--banner-->
+                 <div class="banner">
+                  <video id="bg_video" autoplay muted src="imagens/stranger things.mp4" type="video/mp4" poster="Imagens/banner1.jpg"></video>
+                    <span class="subtitle">
+                        Quando um garoto desaparece, a cidade toda participa nas buscas.<br>
+                        Mas o que encontram são segredos, forças sobrenaturais e uma menina.
+                    </span>
+                        <div class="buttons">
+                            <button class="btn1"> <i class="fas fa-play"></i>Assistir</button>
+                            <button class="btn"> <i class="fas fa-plus"></i>Minha lista</button>
+                        </div>
+                 </div> <!--fechamento do banner-->
+                    <br> <br> <br> <br> <br>
+
+                 <!--categorias-->
+                 <div class="category">
+                    <span>Recomendados</span>
+                    <div class="slider">
+                        <div class="movies">
+                            <img src="imagens/filme1.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme2.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme3.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme4.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme5.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="category">
+                    <span>Em alta</span>
+                    <div class="slider">
+                        <div class="movies">
+                            <img src="imagens/filme7.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme8.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme9.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme10.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme11.jpg" alt="">
+                        </div>
+                        <div class="movies">
+                            <img src="imagens/filme12.jpg" alt="">
+                        </div>
+                    </div>
+                </div> <!--final das categorias-->
+       
+            <!--footer-->
+            <div class="footer">
+                <div class="social">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div> <!--final da class social(redes sociais)-->
+
+                <div class="flex"> <!--informações do rodapé-->
+                    <div class="info">
+                        <ul>
+                            <li>Audiodescrição</li>
+                            <li>Cartão pré-pago</li>
+                            <li>Relações com invertidores</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li>Termos de Uso</li>
+                            <li>Avisos legais</li>
+                            <li>Informações corporativas</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li>Central de Ajuda</li>
+                            <li>Imprensa</li>
+                            <li>Carreiras</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li>Privacidade</li>
+                            <li>Preferências de cookies</li>
+                            <li>Entre em contato</li>
+                        </ul>
+                    </div>
+                </div> <!--final das informações do rodapé-->
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
